@@ -1,0 +1,118 @@
+<resources>
+    <!-- common strings -->
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Dutch Blitz Scorer</string>
+    <string name="cancel">Cancel</string>
+    <string name="cont">Continue</string>
+    <string name="delete">Delete</string>
+    <string name="first_fragment_label">@string/app_name</string>
+    <string name="got_it">Got it!</string>
+    <string name="help">Help</string>
+    <string name="info">Info</string>
+    <string name="next">Next</string>
+    <string name="okay">Okay</string>
+    <string name="previous">Previous</string>
+    <string name="quit">Quit</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+
+    <!-- nav labels -->
+    <string name="setup_game">Setup New Game</string>
+    <string name="game_scores">Game Scores</string>
+    <string name="record_round">Record Round</string>
+
+    <!-- emojis -->
+    <string name="confirm">Confirm</string>
+    <string name="edit">Edit</string>
+
+    <!-- Settings -->
+    <string name="cat_crying_emoji">😿</string>
+    <string name="contact_developer">Contact Developer</string>
+    <string name="crown_emoji">👑</string>
+    <string name="dynamic_colors">Dynamic Colors</string>
+    <string name="other">Other</string>
+    <string name="rate_app">Rate App</string>
+    <string name="share_app">Share this app</string>
+    <string name="theme">Theme</string>
+    <string name="version">Version</string>
+    <string name="delete_game_data">Delete Game Data</string>
+    <string name="contact_developer_message">This will bring you to an email app to send an email to the developer.</string>
+    <string name="delete_warning_message">This action cannot be reversed. It will permanently delete all data.
+        \n\nAre you sure you want to continue?</string>
+    <string name="no_email_app">No email app found</string>
+
+    <!-- Main screen -->
+    <string name="empty_view_text">You don\'t have any games!\n\nPress <b>New Game</b> at the bottom to start\nor learn more about how this app works here:</string>
+    <string name="game_database">Game Database</string>
+    <string name="game_description">Players: %1$d, Rounds: %2$d</string>
+    <string name="new_game">New Game</string>
+    <string name="share_app_summary">Recommend this app to your friends</string>
+    <plurals name="games_selected">
+        <item quantity="one">%d game selected</item>
+        <item quantity="other">%d games selected</item>
+    </plurals>
+
+    <!-- Create game screen -->
+    <string name="cancel_selection">Cancel Selection</string>
+    <string name="delete_games">Delete Games</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+
+    <string name="start_game">Start Game</string>
+    <array name="num_players_array">
+        <item>@string/two</item>
+        <item>@string/three</item>
+        <item>@string/four</item>
+        <item>@string/five</item>
+        <item>@string/six</item>
+        <item>@string/seven</item>
+        <item>@string/eight</item>
+    </array>
+
+    <!-- Scoreboard screen -->
+    <string name="player_name">Player %1$d Name</string>
+    <string name="space"> </string>
+    <string name="record_new_round">Record new round</string>
+    <string name="edit_delete_round">Edit/Delete round</string>
+    <string name="title_edit_round">Edit Round %d</string>
+    <array name="edit_or_delete">
+        <item>@string/edit</item>
+        <item>@string/delete</item>
+    </array>
+
+    <!-- Info screen -->
+    <string name="info_screen"><![CDATA[
+<h3>Welcome to Dutch Blitz Scorer!</h3>
+Please note that you must own the physical Dutch Blitz card game for this app to be useful.
+This app is designed to make scoring for Dutch Blitz simpler.
+This app is not associated or endorsed by the manufacturer of the Dutch Blitz card game.<br><br>
+
+<h3>Quick Start Guide</h3>
+<b>1.</b> To start a new game, press <b>New Game</b> on the main screen<br>
+<b>2.</b> Configure your game settings and press <b>Start Game</b> to begin<br>
+<b>3.</b> After each round of Dutch Blitz, press <b>Record new round</b> to record the scores<br><br>
+
+Review or resume games on the main screen, long press on a game to delete it.<br><br>
+
+<h3>Help with app</h3>
+Feel free to contact me at any time through the <b>Contact Developer</b> button on the Settings screen.
+If you need help with traversing the app, you can always press the <b>Help</b> icon at the top right of each screen.<br><br>
+
+The rules of Dutch Blitz are not explained in this app. It is expected that you have someone in your group that is familiar with the rules of the game.
+For reference, here is a link to the <a href="https://en.wikipedia.org/wiki/Dutch_Blitz">Wikipedia page</a>.<br><br>
+
+<h3>Reporting bugs</h3>
+If you see any bugs, please report them to me through the <b>Contact Developer</b> button on the Settings screen.
+Please attach any screenshots of the issue if possible. I\'ll try to look into them as soon as possible!<br><br>
+
+<h3>Other info</h3>
+This app is free and open-source. There are no ads and there never will be.
+Feel free to visit the source code on <a href="https://github.com/felixzheng98/DutchBlitzScorer">Github</a>.
+]]>
+    </string>
+</resources>

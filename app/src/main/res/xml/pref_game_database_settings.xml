@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/delete_game_data"
+        android:summary="Delete all games permanently"
+        android:icon="@drawable/ic_delete"
+        android:key="delete_all_data"
+        android:persistent="false"/>
+</PreferenceScreen>

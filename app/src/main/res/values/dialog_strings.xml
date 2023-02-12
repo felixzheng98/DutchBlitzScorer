@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_title_onboarding">Welcome to Dutch Blitz Scorer!</string>
+    <string name="dialog_message_onboarding">Please note that you must own the physical Dutch Blitz card game for this app to be useful.
+        \n\nThis app is designed to make scoring for Dutch Blitz simpler.
+        \n\nThere are more instructions on the <b>Info</b> tab, but here are some quick tips:
+        \n<b>1.</b> To start a new game, press <b>New Game</b>
+        \n<b>2.</b> Configure your game settings and press <b>Start Game</b> to begin
+        \n<b>3.</b> After each round of Dutch Blitz, press <b>Record new round</b> to record the scores
+        \n\nIf you need additional help along the way, tap the <b>Help</b> icon in the top right corner of the screen. It will provide specific help based on the screen you are on.
+        \n\nThe home page serves as a history for all games, where you can resume or review games.
+        \n\nEnjoy!
+    </string>
+
+    <string name="dialog_title_delete_selected_games">Delete selected games</string>
+    <string name="dialog_message_delete_selected_games">Are you sure you want to delete the selected games?</string>
+
+    <string name="dialog_title_restart_required">App restart required for dynamic color changes</string>
+    <string name="dialog_message_restart_required">The app won\'t be automatically relaunched. The next time you relaunch it, the dynamic color setting will be applied.</string>
+
+    <string name="dialog_title_edit_delete_tip">Edit or delete a round</string>
+    <string name="dialog_message_edit_delete_tip">Long press on the round number to edit or delete that round.</string>
+
+    <string name="dialog_title_zero_scores">All zero scores</string>
+    <string name="dialog_message_zero_scores">It seems like all the scores are zero 😮.
+        \n\nAre you sure you want to continue with saving?</string>
+
+    <string name="dialog_title_quit_create">Quit Creating New Game</string>
+    <string name="dialog_message_quit_create">Are you sure you want to go back?
+        \n\nGame settings will not be saved as the game was not started.</string>
+
+    <!-- Help dialogs -->
+    <string name="dialog_title_help_create_game">Setup New Game Help</string>
+    <string name="dialog_message_help_create_game">This screen is for setting up a new game.
+        \n\nGive the game a name or leave it as the default.
+        \n\nChoose the number of players.
+        \nNote: Dutch Blitz normally only supports 4 players unless you own the expansion pack!
+        \n\nGive each player a unique name.
+        \n\nThen press <b>Start Game</b> to begin!
+    </string>
+
+    <string name="dialog_title_help_game_scoring">Game Scoring Help</string>
+    <string name="dialog_message_help_game_scoring">This screen shows an overview of each round and each player\'s total score.
+        \n\nTo record a new round, use the <b>Record new round</b> button!
+        \n\nTo edit or delete a round, long press on the round that you would like to edit or delete.
+        \n\nGenerally, the game ends when the first player reaches a score of <b>75</b> or higher.
+    </string>
+
+    <string name="dialog_title_help_record_round">How to calculate scores?</string>
+    <string name="dialog_message_help_record_round">A round is finished when a player plays their last card and yells <b>BLITZ!</b>\n
+        \nScores are then calculated by:
+        \n  <b>1.</b> Adding one point for each card the player has played in the Dutch Piles
+        \n  <b>2.</b> Subtracting two points for each card the player has in their Blitz Pile
+        \n\nType in the score for each player in this app and press <b>Save</b> to record!</string>
+
+
+    <!-- Error dialogs -->
+    <string name="error_title_player_name_empty">Empty player name issue</string>
+    <string name="error_message_player_name_empty">Please make sure each player\'s name is not empty.</string>
+
+    <string name="error_title_duplicate_name">Duplicate player name issue</string>
+    <string name="error_message_duplicate_name">Each player must have a unique name. There are currently players with the same name. Please fix this and try again!</string>
+
+    <string name="error_title_duplicate_icon">Duplicate player icon issue</string>
+    <string name="error_message_duplicate_icon">Each player must have a unique icon. There are currently players with the same icon. Please fix this and try again!</string>
+
+    <string name="error_title_duplicate_name_icon">Duplicate player names and icons issues</string>
+    <string name="error_message_duplicate_name_icon">Each player must have a unique name and icon. There are currently players with the same name and same icons. Please fix this and try again!</string>
+
+    <string name="error_title_starting_game">Error starting game</string>
+    <string name="error_message_starting_game">Something has gone seriously wrong.
+        Confirm that player names are unique!
+        If it still does not work, contact me via the Settings page.</string>
+
+    <string name="error_title_score_empty">Empty score issue</string>
+    <string name="error_message_score_empty">Please make sure all fields are filled out with valid numbers and then try again.</string>
+
+    <string name="error_title_record_round">Error recording round</string>
+    <string name="error_message_record_round">Something has gone seriously wrong.
+        Confirm that each player\'s score is filled out.
+        If it still does not work, contact me via the Settings page.</string>
+
+
+</resources>

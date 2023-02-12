@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:defaultValue="default"
+        android:entries="@array/type_of_theme"
+        android:entryValues="@array/theme_values"
+        android:icon="@drawable/ic_dark_mode"
+        android:key="theme"
+        android:summary="%s"
+        android:title="@string/theme" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:icon="@drawable/ic_auto_fix"
+        android:key="dynamic_colors"
+        android:summary="Follows system colors (Requires app restart)"
+        android:title="@string/dynamic_colors" />
+
+    <Preference
+        android:icon="@drawable/ic_contact_mail"
+        android:key="contact_developer"
+        android:summary="Email about any concerns or suggestions"
+        android:title="@string/contact_developer"
+        app:persistent="false" />
+
+    <Preference
+        android:icon="@drawable/ic_star"
+        android:key="rate_app"
+        android:summary="Give or update your rating"
+        android:title="@string/rate_app"
+        app:persistent="false" />
+
+    <Preference
+        android:icon="@drawable/ic_share"
+        android:key="share_app"
+        android:summary="@string/share_app_summary"
+        android:title="@string/share_app"
+        app:persistent="false" />
+
+    <Preference
+        android:icon="@drawable/ic_database"
+        android:key="database"
+        android:summary="Options to delete game data"
+        android:title="@string/game_database"
+        app:persistent="false" />
+
+    <Preference
+        android:icon="@drawable/ic_help"
+        android:key="version"
+        android:summary="@string/version_name"
+        android:title="@string/version"
+        app:persistent="false" />
+</PreferenceScreen>
